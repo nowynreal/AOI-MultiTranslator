@@ -1,1 +1,25 @@
 @import "tailwindcss";
+
+/* Custom scrollbar styles */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 12px;
+    
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #ff00ae4c; /* Thumb color */
+    border-radius: 6px;
+    border: 3px solid #1e1e1e; /* Padding around thumb */
+    padding-right:10px ;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #ff66c4; /* Thumb hover color */
+    cursor: grab;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:active {
+    cursor: grabbing;
+  }
+
+  /* ff00ae */
