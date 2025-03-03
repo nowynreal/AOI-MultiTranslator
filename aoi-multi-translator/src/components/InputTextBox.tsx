@@ -14,7 +14,7 @@ function InputTextBox() {
   }, [text]);
 
   return (
-    <div className="flex flex-col justify-end items-start border-[#ffffff54] border-2 rounded-md w-full h-full flex-grow">
+    <div className="flex flex-col justify-end items-start border-[#ffffff54] border-2 rounded-md w-full max-w-3xl min-w-[300px] h-full flex-grow mx-auto">
       <div className="w-full p-5 relative">
         <div className="relative">
           <select name="inputLang" className="appearance-none font-medium text-white border border-[#ffffff54] p-1 pl-3 rounded-md w-full">
